@@ -34,7 +34,7 @@ enum4linux 10.10.43.173
 smbclient //10.10.43.173/pics -N
 ```
 
-![anonymous](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/anonymous/screenshots/202504192228445.png)
+![anonymous](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/anonymous/screenshots/20250419222844.png)
 
 ![anonymous](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/anonymous/screenshots/20250419223102.png)
 
