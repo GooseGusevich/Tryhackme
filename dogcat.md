@@ -8,7 +8,7 @@ IP:10.10.138.40
 22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 80/tcp open  http    Apache httpd 2.4.38 ((Debian))
 
-[![[.Pasted image 20250419112815.png]]](https://github.com/GooseGusevich/Tryhackme/blob/main/Pasted%20image%2020250419112702.png)
+[![[.Pasted image 20250419112815.png]]](https://github.com/GooseGusevich/Tryhackme/blob/main/Pasted image 20250419112702.png)
 
 ![[Pasted image 20250419190614.png]]
 
