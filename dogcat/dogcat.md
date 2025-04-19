@@ -3,15 +3,15 @@ https://tryhackme.com/room/dogcat
 "Я сделал сайт, на котором можно смотреть фотографии собак и/или кошек! Используйте приложение PHP через LFI и выйдите из контейнера Docker.
 Я сделал этот сайт для просмотра изображений кошек и собак с помощью PHP. Если вам грустно, приходите посмотреть на собак/кошек!"
 IP:10.10.138.40
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419112702.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419112702.png)
 
 
 22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 80/tcp open  http    Apache httpd 2.4.38 ((Debian))
 
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419112815.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419112815.png)
 
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419112829.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419112829.png)
 
 /?view=cat
 /?view=dog
