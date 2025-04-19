@@ -8,7 +8,7 @@ IP:10.10.138.40
 22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 80/tcp open  http    Apache httpd 2.4.38 ((Debian))
 
-![[./screenshots/Pasted image 20250419112815.png]]
+![[./dogcat/screenshots/Pasted image 20250419112815.png]]
 
 ![[./screenshots/Pasted image 20250419112829.png]]
 
