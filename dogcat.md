@@ -10,7 +10,7 @@ IP:10.10.138.40
 
 ![[.Pasted image 20250419112815.png]]
 
-![[./screenshots/Pasted image 20250419112829.png]]
+![[Pasted image 20250419190614.png]]
 
 /?view=cat
 /?view=dog
