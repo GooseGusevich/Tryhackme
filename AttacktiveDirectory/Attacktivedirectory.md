@@ -196,7 +196,6 @@ backup@spookysec.local:backup2517860
 > - Доступ к веткам реестра **HKLM** (включая SAM)
 
 ![Attacktivedirectory](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/AttacktiveDirectory/screenshots/20250504205848.png)
-## Pass the hash
 
 # Flag1 
 User svc-admin
