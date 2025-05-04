@@ -88,7 +88,6 @@ Service Info: Host: ATTACKTIVEDIREC; OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
 echo "10.10.142.248    spookysec.local" >> /etc/hosts 
 ```
-![Attacktivedirectory](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/AttacktiveDirectory/screenshots/20250504194147.png)
 ## SMB
 ![Attacktivedirectory](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/AttacktiveDirectory/screenshots/20250504182533.png)
 ```
