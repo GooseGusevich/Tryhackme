@@ -89,7 +89,6 @@ nmap 10.10.124.169 -p80,443,21,22,139,445 --script=ftp* smb* http* -T5 -vv
 
 ![Aratus](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/Aratus/screenshots/20250510004251.png)
 # FTP
-![[20250510000945.png]]
 ![Aratus](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/Aratus/screenshots/20250510001045.png)
 ![Aratus](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/Aratus/screenshots/20250510002700.png)
 
