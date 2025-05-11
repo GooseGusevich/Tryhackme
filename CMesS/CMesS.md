@@ -39,7 +39,7 @@ dirserach -u http://cmess.thm/
 ```
 ![CMesS](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/CMesS/screenshots/20250511154302.png)
 
-![[20250511154326.png]]
+![CMesS](https://raw.githubusercontent.com/GooseGusevich/Tryhackme/refs/heads/main/CMesS/screenshots/20250511154326.png)
 ## FFUF
 ```bash
 ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt -u http://cmess.thm/ -H "Host:FUZZ.cmess.thm" -ic -c -fw 522
